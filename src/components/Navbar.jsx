@@ -5,11 +5,11 @@ import { useState } from "react";
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   return (
-    <nav className="flex flex-col md:flex-row gap-4 md:gap-0 md:justify-between  bg-indigo-900/40 border-2 border-sky-500 md:items-center fixed top-4 w-[96%] py-4 md:py-3 md:py-4 px-8 rounded-lg -translate-x-[50%] left-1/2 backdrop-blur-xl">
+    <nav className="flex flex-col md:flex-row gap-4 md:gap-0 md:justify-between  bg-indigo-900/40 border-2 border-sky-500 md:items-center fixed top-4 w-[96%] py-[10px] md:py-4 px-4 md:px-8 rounded-lg -translate-x-[50%] left-1/2 backdrop-blur-xl">
       <div className="flex items-center justify-between">
         <a href="/">
           <img
-            className="w-48 h-48 md:w-[50px] md:h-[50px] object-cover"
+            className="w-48 h-48 md:w-[54px] md:h-[54px] object-cover"
             src="./logo.png"
             alt="Web Consultancy Services"
           />

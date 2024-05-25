@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {},
     width: {
-      48: "48px",
+      48: "40px",
     },
     height: {
-      48: "48px",
+      48: "40px",
     },
     backgroundImage: {
       "hero-img": 'url("./src/assets/home-img/HomeHeroImage.png")',
