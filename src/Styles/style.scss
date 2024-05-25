@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 // Variables
 $background: #000000;
-
 
 * {
   margin: 0;
@@ -13,13 +10,11 @@ $background: #000000;
   font-family: "Roboto", sans-serif;
 }
 
-
 html,
 body {
   width: 100%;
   height: 100%;
 }
-
 
 body {
   overflow-x: hidden;
@@ -32,11 +27,54 @@ body {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  line-height: 50px !important;
+}
+
 ul {
   li {
     a {
       &:hover {
         color: #ccc;
+      }
+    }
+  }
+}
+
+.portfolio-btn {
+  background: #41417e;
+  // width: fit-content;
+  transition: 0.3s linear;
+  &:hover {
+    color: black;
+    background: white;
+  }
+}
+
+@media Screen and (min-width: 1024px) {
+  .services-comp:nth-child(even) {
+    div:nth-child(1) {
+      order: 2;
+    }
+    div:nth-child(2) {
+      img {
+        width: 100%;
+        max-width: 470px;
+        height: 100%;
+        max-height: 500px;
+      }
+    }
+  }
+  .services-comp:nth-child(odd) {
+    div:nth-child(2) {
+      img {
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        max-height: 500px;
       }
     }
   }

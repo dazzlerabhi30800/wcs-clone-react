@@ -1,4 +1,4 @@
-const HeroComp = ({ img, heading, subHeading }) => {
+export default function HeroComp({ img, heading, subHeading }) {
   return (
     <div
       style={{ backgroundImage: `url(${img})` }}
@@ -15,6 +15,4 @@ const HeroComp = ({ img, heading, subHeading }) => {
       </button>
     </div>
   );
-};
-
-export default HeroComp;
+}
