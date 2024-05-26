@@ -15,6 +15,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 main {
   padding-bottom: 2rem;
 }
@@ -39,6 +40,7 @@ h2,
 h3,
 h4 {
   width: fit-content;
+  font-weight: 700 !important;
   line-height: 45px !important;
 }
 
@@ -56,6 +58,7 @@ ul {
   background: #41417e;
   // width: fit-content;
   transition: 0.3s linear;
+
   &:hover {
     color: black;
     background: white;
@@ -66,25 +69,39 @@ ul {
 .form--section {
   background: linear-gradient(to bottom, rgb(37, 14, 14), rgb(31, 31, 56) 60%);
   border-radius: 5px;
+
   form {
     input {
       &::-webkit-outer-spin-button,
       &::-webkit-inner-spin-button {
         appearance: none;
       }
+
       & {
         background: transparent;
-        border: 1px solid rgb(245, 245, 245);
+        border: 2px solid rgb(163, 161, 161);
         border-radius: 5px;
         padding: 10px 15px;
+
+        &:focus {
+          outline: none;
+          border-color: #fff;
+        }
       }
     }
+
     textarea {
       background: transparent;
-      border: 1px solid rgb(202, 245, 245);
+      border: 2px solid rgb(163, 161, 161);
       border-radius: 5px;
       padding: 10px 15px;
+
+      &:focus {
+        outline: none;
+        border-color: #fff;
+      }
     }
+
     button {
       background: linear-gradient(
         to left,
@@ -98,19 +115,51 @@ ul {
       color: black;
       font-weight: 600;
       font-size: 1.1rem;
-      transition: 0.6s linear;
+      transition: 0.2s linear;
+
       &:hover {
-        animation: backgroundAnim 1s linear infinite;
+        filter: brightness(120%);
+      }
+
+      &:active {
+        transform: translate(-5px, 8px);
       }
     }
   }
 }
-@keyframes backgroundAnim {
-  0% {
-    background-position: 5vh;
+
+// * Footer Styling
+.footer--wrapper {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #a200ff,
+    #22d6ee 50%,
+    #f6385b,
+    #ff7b00,
+    transparent
+  );
+  padding-top: 1px;
+}
+footer {
+  background: linear-gradient(to left, rgb(10, 21, 28), rgb(20, 12, 32));
+  .social--icon {
+    span {
+      transition: 0.2s linear;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
   }
-  100% {
-    background-position: 65vh;
+
+  ul,
+  .timing--container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px 0;
   }
 }
 
@@ -121,6 +170,7 @@ ul {
   h4 {
     width: fit-content;
   }
+
   .services-comp:nth-child(odd) {
     div:nth-child(2) {
       img {
@@ -131,10 +181,12 @@ ul {
       }
     }
   }
+
   .benefit-comp {
     &:nth-child(even) {
       div:nth-child(1) {
         text-align: left;
+
         h2 {
           margin-right: auto;
           margin-left: 0;
@@ -145,12 +197,14 @@ ul {
     &:nth-child(odd) {
       div:nth-child(1) {
         text-align: right;
+
         h2 {
           margin-right: 0;
           margin-left: auto;
         }
       }
     }
+
     &:nth-child(even) {
       div:nth-child(1) {
         order: 2;
@@ -164,6 +218,7 @@ ul {
     div:nth-child(1) {
       order: 2;
     }
+
     div:nth-child(2) {
       img {
         width: 100%;
