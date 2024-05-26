@@ -22,6 +22,10 @@ body {
   color: #fff;
 }
 
+section {
+  margin: 2rem 0;
+}
+
 #root {
   height: 100%;
   width: 100%;
@@ -31,7 +35,7 @@ h1,
 h2,
 h3,
 h4 {
-  line-height: 50px !important;
+  line-height: 45px !important;
 }
 
 ul {
@@ -54,6 +58,36 @@ ul {
   }
 }
 
+@media Screen and (min-width: 768px) {
+  .services-comp:nth-child(odd) {
+    div:nth-child(2) {
+      img {
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        max-height: 500px;
+      }
+    }
+  }
+  .benefit-comp {
+    &:nth-child(even) {
+      div:nth-child(1) {
+        text-align: left;
+      }
+    }
+    &:nth-child(odd) {
+      div:nth-child(1) {
+        text-align: right;
+      }
+    }
+    &:nth-child(even) {
+      div:nth-child(1) {
+        order: 2;
+      }
+    }
+  }
+}
+
 @media Screen and (min-width: 1024px) {
   .services-comp:nth-child(even) {
     div:nth-child(1) {
@@ -63,16 +97,6 @@ ul {
       img {
         width: 100%;
         max-width: 470px;
-        height: 100%;
-        max-height: 500px;
-      }
-    }
-  }
-  .services-comp:nth-child(odd) {
-    div:nth-child(2) {
-      img {
-        width: 100%;
-        max-width: 600px;
         height: 100%;
         max-height: 500px;
       }

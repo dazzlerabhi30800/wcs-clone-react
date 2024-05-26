@@ -24,7 +24,7 @@ const HeroSection = (props) => {
           }}
         >
           <img
-            className="object-cover w-[100%] max-h-[400px] max-w-[400px]"
+            className="object-cover w-[100%]  max-h-[450px] max-w-[430px]"
             src="./src/assets/home-img/subHeroImg1.png"
             alt="Digital Success"
           />
