@@ -1,5 +1,3 @@
-// import subHeroImg1 from "../../assets/home-img/subHeroImg.png";
-// import subHeroImg2 from "../../assets/home-img/subHeroImage2.png";
 import HeroComp from "../../components/HeroComp";
 
 const HeroSection = (props) => {
@@ -20,12 +18,12 @@ const HeroSection = (props) => {
         <div
           className="flex justify-center items-center grow md:grow-0 md:basis-1/2 bg-no-repeat bg-contain md:bg-fill bg-center"
           style={{
-            backgroundImage: `url('./src/assets/home-img/subHeroImage2.png')`,
+            backgroundImage: `url('./home-img/subHeroImage2.png')`,
           }}
         >
           <img
             className="object-cover w-[100%]  max-h-[450px] max-w-[430px]"
-            src="./src/assets/home-img/subHeroImg1.png"
+            src="./home-img/subHeroImg1.png"
             alt="Digital Success"
           />
         </div>

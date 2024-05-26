@@ -1,7 +1,6 @@
 import SectionTitle from "../../components/SectionTitle";
 import ServicesComp from "../../components/ServicesComp";
 import ServicesData from "../../data/ServicesData";
-import ResultDriven from "./ResultDriven";
 
 const Services = (props) => {
   return (

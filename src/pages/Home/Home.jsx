@@ -1,5 +1,4 @@
 import HeroSection from "./HeroSection.jsx";
-import heroImg from "../../assets/home-img/HomeHeroImage.png";
 import Services from "./Services.jsx";
 import ResultDriven from "./ResultDriven.jsx";
 
@@ -7,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <HeroSection
-        img={heroImg}
+        img="./home-img/HomeHeroImage.png"
         heading="Web Consultancy Services"
         subHeading="Bring your business online"
       />
