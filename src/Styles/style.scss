@@ -64,7 +64,8 @@ ul {
 
 // ? Form Styling
 .form--section {
-  background: linear-gradient(to bottom, rgb(26, 15, 15), rgb(17, 17, 32));
+  background: linear-gradient(to bottom, rgb(37, 14, 14), rgb(31, 31, 56) 60%);
+  border-radius: 5px;
   form {
     input {
       &::-webkit-outer-spin-button,
