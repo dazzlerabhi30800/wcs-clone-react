@@ -2,7 +2,7 @@ export default function HeroComp({ img, heading, subHeading }) {
   return (
     <div
       style={{ backgroundImage: `url(${img})` }}
-      className="flex flex-col gap-5 justify-center items-start h-[55vh] md:h-[70vh]  bg-cover bg-center px-6 md:px-12"
+      className="flex flex-col gap-5 justify-center items-start h-[60vh] md:h-[70vh]  bg-cover bg-center px-6 md:px-12"
     >
       <h1 className="text-3xl md:text-4xl mt-7 lg:text-[3rem] xl:text-[3.5rem] font-bold">
         {heading}

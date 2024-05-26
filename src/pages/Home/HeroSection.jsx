@@ -23,6 +23,7 @@ const HeroSection = (props) => {
         >
           <img
             className="object-cover w-[100%]  max-h-[450px] max-w-[430px]"
+            loading="lazy"
             src="./home-img/subHeroImg1.png"
             alt="Digital Success"
           />

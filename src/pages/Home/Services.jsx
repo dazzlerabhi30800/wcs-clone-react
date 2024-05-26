@@ -4,7 +4,7 @@ import ServicesData from "../../data/ServicesData";
 
 const Services = (props) => {
   return (
-    <section className="p-16 md:p-20">
+    <section className="p-10 md:p-16">
       <SectionTitle {...props} />
       <div className="flex flex-col gap-40 my-28">
         {ServicesData.map((item, index) => (

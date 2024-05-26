@@ -24,7 +24,7 @@ export default function ServicesComp({
         </button>
       </div>
       <div className="md:basis-1/2 flex justify-center">
-        <img src={img} alt={title} className="object-cover" />
+        <img src={img} alt={title} loading="lazy" className="object-cover" />
       </div>
     </div>
   );
