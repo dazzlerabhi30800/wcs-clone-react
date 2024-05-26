@@ -13,7 +13,7 @@ export default function ServicesComp({
           {services.map((item) => (
             <span
               key={item}
-              className="bg-white text-center py-4 md:py-3 w-fit rounded-md text-black transition duration-400 ease-in hover:bg-blue-800 cursor-pointer hover:text-white font-semibold"
+              className="bg-white text-center py-4 md:py-3 w-fit rounded-md text-black transition duration-400 w-full ease-in hover:bg-blue-800 cursor-pointer hover:text-white font-semibold"
             >
               {item}
             </span>
