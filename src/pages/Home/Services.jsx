@@ -12,7 +12,6 @@ const Services = (props) => {
           <ServicesComp key={index} item={item} />
         ))}
       </div>
-      <ResultDriven />
     </section>
   );
 };

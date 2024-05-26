@@ -1,6 +1,7 @@
 import HeroSection from "./HeroSection.jsx";
 import heroImg from "../../assets/home-img/HomeHeroImage.png";
 import Services from "./Services.jsx";
+import ResultDriven from "./ResultDriven.jsx";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         title="Our Services"
         subText="We Are Specialized In The Following Services"
       />
+      <ResultDriven />
     </main>
   );
 }
