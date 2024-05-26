@@ -5,7 +5,7 @@ export default function BenefitComp({ data: { title, paragraph, img } }) {
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold border-b-2 mx-auto italic">
           {title}
         </h2>
-        <p className="text-sm md:text-base leading-relaxed">{paragraph}</p>
+        <p className="text-base md:text-lg leading-relaxed">{paragraph}</p>
       </div>
       <div className="w-full h-full flex justify-center grow">
         <img

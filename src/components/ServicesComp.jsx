@@ -4,7 +4,7 @@ export default function ServicesComp({
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center gap-24 services-comp">
       <div className="flex flex-col gap-2 md:gap-6 md:basis-1/2 text-center md:text-left">
-        <h2 className="font-bold text-3xl md:text-[2rem] lg:text-[2.5rem]">
+        <h2 className="font-bold text-3xl md:text-[2rem] lg:text-[2.5rem] mx-auto">
           {title}
         </h2>
         <p className="text-lg md:text-xl">{subText}</p>
