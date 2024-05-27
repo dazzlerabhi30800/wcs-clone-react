@@ -37,11 +37,13 @@ section {
 
 h1,
 h2,
-h3,
+h3 {
+  line-height: 45px !important;
+}
+
 h4 {
   width: fit-content;
   font-weight: 700 !important;
-  line-height: 45px !important;
 }
 
 ul {
@@ -127,6 +129,18 @@ ul {
     }
   }
 }
+
+// ! Services Page Styling
+.design--section {
+  p {
+    margin-top: 2.5rem;
+  }
+}
+.design--icon {
+  width: clamp(250px, 100%, 450px);
+  height: clamp(250px, 100%, 450px);
+}
+
 
 // * Footer Styling
 .footer--wrapper {

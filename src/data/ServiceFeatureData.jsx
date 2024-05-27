@@ -55,3 +55,40 @@ export const featureData = [
   },
 ];
 
+export const RoadmapData = [
+  {
+    title: "Fill the contact form",
+    info: "Fill the contact form & within 24Hrs WCS member will contact you.",
+    img: "./services-img/StepIcon01.png",
+  },
+  {
+    title: "Consultation",
+    info: "WCS member will note your business requirements, objectives and schedule meeting.",
+    img: "./services-img/StepIcon02.png",
+  },
+  {
+    title: "Requirements gathering",
+    info: "WCS member will gather all the detailed requirements for your web app, this involves identifying the target audience, defining user personas, outlining features and functionalities, and determining the technical specifications and integrations required.",
+    img: "./services-img/StepIcon03.png",
+  },
+  {
+    title: "Wireframing and prototyping",
+    info: "WCS will create wireframes and prototypes to visualize the user interface and functionality of your web app.",
+    img: "./services-img/StepIcon04.png",
+  },
+  {
+    title: "Development and testing",
+    info: "Once the design is approved,WCS will start the development process. Testing should be conducted at various stages to ensure the web app functions correctly and is free of bugs.",
+    img: "./services-img/StepIcon05.png",
+  },
+  {
+    title: "Deployment and hosting",
+    info: "When development is complete, WCS will deploy the web app to a hosting environment that suits your needs. They will configure servers, set up databases, and ensure the app is accessible to users securely.",
+    img: "./services-img/StepIcon06.png",
+  },
+  {
+    title: "User acceptance testing (UAT) & Launching",
+    info: "Before launching the web app to the public, we will conduct UAT to validate its performance, usability, and overall user experience. After successfully completing UAT, we can launch your web app to the public.",
+    img: "./services-img/StepIcon07.png",
+  },
+];

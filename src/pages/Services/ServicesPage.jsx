@@ -2,6 +2,8 @@ import HeroComp from "../../components/HeroComp";
 import ResultDriven from "../Home/ResultDriven";
 import data from "../../data/ServicePageData.json";
 import ServiceFeatures from "./ServiceFeatures";
+import DesignProcess from "./DesignProcess";
+import Form from "../../components/Form";
 
 export default function ServicesPage() {
   return (
@@ -21,6 +23,8 @@ export default function ServicesPage() {
         height={380}
       />
       <ServiceFeatures />
+      <DesignProcess />
+      <Form />
     </main>
   );
 }
