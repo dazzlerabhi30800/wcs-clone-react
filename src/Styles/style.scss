@@ -39,6 +39,7 @@ h1,
 h2,
 h3 {
   line-height: 45px !important;
+  font-weight: 700 !important;
 }
 
 h4 {
@@ -69,7 +70,7 @@ ul {
 
 // ? Form Styling
 .form--section {
-  background: linear-gradient(to bottom, rgb(37, 14, 14), rgb(31, 31, 56) 60%);
+  background: linear-gradient(to bottom, rgb(67, 38, 38), rgb(49, 49, 90) 60%);
   border-radius: 5px;
 
   form {
@@ -156,7 +157,7 @@ ul {
   padding-top: 1px;
 }
 footer {
-  background: linear-gradient(to left, rgb(10, 21, 28), rgb(20, 12, 32));
+  background: linear-gradient(to left, rgb(25, 60, 67), rgb(50, 29, 61));
   .social--icon {
     span {
       transition: 0.2s linear;

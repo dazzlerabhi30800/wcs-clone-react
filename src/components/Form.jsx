@@ -1,7 +1,7 @@
 export default function Form() {
   return (
     <section className="form--section w-[93%] md:w-[90%] mx-auto flex flex-col md:flex-row py-10 gap-5 md:gap-0">
-      <div className="flex flex-col gap-3 text-center justify-center items-center  md:basis-1/2">
+      <div className="flex flex-col gap-3 text-center justify-center items-center  md:basis-1/2 px-3">
         <img
           src="./logo.png"
           className="w-[60px] h-[60px] md:w-[70px] md:h-[70px]"
