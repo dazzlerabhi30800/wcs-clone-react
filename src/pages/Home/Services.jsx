@@ -7,7 +7,7 @@ const Services = (props) => {
     <section className="p-10 md:p-16">
       <SectionTitle {...props} />
       <div className="flex flex-col gap-28 my-24 md:px-10">
-        {ServicesData.map((item, index) => (
+        {props.data.map((item, index) => (
           <ServicesComp key={index} item={item} />
         ))}
       </div>

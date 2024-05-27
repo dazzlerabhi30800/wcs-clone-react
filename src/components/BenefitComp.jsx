@@ -1,4 +1,8 @@
-export default function BenefitComp({ data: { title, paragraph, img } }) {
+export default function BenefitComp({
+  data: { title, paragraph, img },
+  height,
+  width,
+}) {
   return (
     <div className="benefit-comp flex flex-col md:flex-row md:items-center gap-10 lg:p-6 w-full lg:w-[90%] mx-auto">
       <div className="flex flex-col md:basis-1/2 gap-4 md:pt-2 text-center">
@@ -12,7 +16,8 @@ export default function BenefitComp({ data: { title, paragraph, img } }) {
           src={img}
           loading="lazy"
           alt={title}
-          className="object-cover w-[100%] h-[100%] max-w-[480px] max-h-[480px]  "
+          style={{ maxWidth: `${width}px`, maxHeight: `${height}px` }}
+          className="object-contain w-[100%] h-[100%]"
         />
       </div>
     </div>

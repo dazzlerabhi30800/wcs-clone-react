@@ -1,0 +1,29 @@
+{
+    "servicePageData": [
+        {
+            "title": "For Strong ",
+            "paragraph": "We offers a range of services to assist clients in maximizing their online presence and achieving their digital goals.",
+            "img": "./services-img/serviceImg01.png"
+        },
+        {
+            "title": "Easy to Customize",
+            "paragraph": "We create secureand easy-to-customize websites that let you easily update the content yourself using auser-friendly administration panel.",
+            "img": "./services-img/serviceImg02.png"
+        },
+        {
+            "title": "Easy Scalability",
+            "paragraph": "E-commerce platforms provide scalability options, allowing your business to grow and adapt to changing demands.",
+            "img": "./services-img/serviceImg03.png"
+        },
+        {
+            "title": "Cost Savings",
+            "paragraph": "E-commerce can be more cost-effective than traditional brick-and-mortar retail. It eliminates the need for physical storefronts, reduces overhead costs associated with maintaining a physical space, and minimizes expenses related to inventory management.",
+            "img": "./services-img/serviceImg04.png"
+        },
+        {
+            "title": "Global Reach",
+            "paragraph": "E-commerce eliminates geographical barriers, allowing businesses to reach a global customer base. Customers can access your online store from anywhere, at any time,",
+            "img": "./services-img/serviceImg05.png"
+        }
+    ]
+}
