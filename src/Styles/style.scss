@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 // Variables
-$background: #0a0a0a;
 
 * {
   margin: 0;
@@ -22,7 +21,7 @@ main {
 
 body {
   overflow-x: hidden;
-  background-color: $background;
+  background: radial-gradient(circle, rgb(35, 35, 35), rgb(0, 0, 0));
   color: #fff;
 }
 
@@ -158,13 +157,13 @@ ul {
 
 // ! PORTFOLIO STYLING
 .app--service--comp {
-  background: rgb(41, 44, 71);
+  background: rgb(40, 31, 67);
   .app--service--wrapper {
     & > div {
       transition: 0.3s linear;
       background: transparent;
       &:hover {
-        background: rgb(71, 55, 125);
+        background: rgb(18, 18, 25);
       }
     }
     &::-webkit-scrollbar {
