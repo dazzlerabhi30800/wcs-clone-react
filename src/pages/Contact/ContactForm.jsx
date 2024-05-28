@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <div className="flex flex-col lg:flex-row gap-12 lg:items-center my-10">
+    <div className="flex flex-col lg:flex-row gap-12  my-10">
       <div className="flex justify-center items-center lg:basis-1/2">
         <img
           src="./contact-img/ContactFormIcon.png"
@@ -8,7 +8,7 @@ export default function ContactForm() {
           className="bg-cover"
         />
       </div>
-      <form className="contact--form flex flex-col gap-5 py-6 px-8 rounded-md shadow-md lg:basis-1/2">
+      <form className="contact--form flex flex-col gap-5 py-6 px-8 rounded-md shadow-md lg:basis-1/2 lg:max-w-[500px] basis-full">
         <div className="flex flex-col gap-2">
           <label className="text-sm md:text-base" htmlFor="name">
             Name

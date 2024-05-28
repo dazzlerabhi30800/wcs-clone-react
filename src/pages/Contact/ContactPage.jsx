@@ -14,7 +14,7 @@ export default function ContactPage() {
         </h1>
       </section>
       <section className="p-10 md:p-16 flex flex-col gap-10">
-        <p className="text-xl md:text-2xl lg:text-3xl text-center font-medium">
+        <p className="text-xl md:text-2xl lg:text-3xl text-center font-normal">
           Complete the form below to tell us about your business. We will get in
           touch with you as soon as possible
         </p>
