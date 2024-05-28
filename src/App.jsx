@@ -7,6 +7,7 @@ import ServicesPage from "./pages/Services/ServicesPage";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import BlogPage from "./pages/Blog/BlogPage";
 import AboutPage from "./pages/About/AboutPage";
+import ContactPage from "./pages/Contact/ContactPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </>

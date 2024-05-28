@@ -68,17 +68,18 @@ ul {
 }
 
 // ? Form Styling
+input[type="number"] {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    appearance: none;
+  }
+}
 .form--section {
-  background: linear-gradient(to bottom, rgb(51, 22, 22), rgb(32, 32, 63) 60%);
+  background: linear-gradient(to bottom, rgb(27, 28, 67), rgb(32, 32, 63) 60%);
   border-radius: 5px;
 
   form {
     input {
-      &::-webkit-outer-spin-button,
-      &::-webkit-inner-spin-button {
-        appearance: none;
-      }
-
       & {
         background: transparent;
         border: 2px solid rgb(163, 161, 161);
@@ -208,6 +209,11 @@ footer {
     gap: 8px;
     margin: 10px 0;
   }
+}
+
+// ! CONTACT PAGE STYLING
+.contact--form {
+  background: rgb(41, 39, 53);
 }
 
 @media Screen and (min-width: 768px) {
