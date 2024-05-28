@@ -1,6 +1,8 @@
 import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
+import { useLocation, Link } from "react-router-dom";
 
 export default function Footer() {
+  const location = useLocation();
   return (
     <div className="footer--wrapper mt-16 pt-1 animate-movingBg">
       <footer className="p-5 md:p-10 flex flex-col gap-10">
@@ -37,19 +39,76 @@ export default function Footer() {
             <h4>Quick Links</h4>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <Link
+                  className={`py-1 border-b ${
+                    location.pathname === "/"
+                      ? "font-bold text-cyan-400 border-sky-500"
+                      : "border-transparent font-normal"
+                  }`}
+                  to="/"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="">Services</a>
+                <Link
+                  className={`py-1 border-b ${
+                    location.pathname === "/services"
+                      ? "font-bold text-cyan-400 border-sky-500"
+                      : "border-transparent font-normal"
+                  }`}
+                  to="/services"
+                >
+                  Services
+                </Link>
               </li>
               <li>
-                <a href="">Portfolio</a>
+                <Link
+                  className={`py-1 border-b ${
+                    location.pathname === "/portfolio"
+                      ? "font-bold text-cyan-400 border-sky-500"
+                      : "border-transparent font-normal"
+                  }`}
+                  to="/portfolio"
+                >
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <a href="">Blog</a>
+                <Link
+                  className={`py-1 border-b ${
+                    location.pathname === "/blog"
+                      ? "font-bold text-cyan-400 border-sky-500"
+                      : "border-transparent font-normal"
+                  }`}
+                  to="/blog"
+                >
+                  Blog
+                </Link>
               </li>
               <li>
-                <a href="">About</a>
+                <Link
+                  className={`py-1 border-b ${
+                    location.pathname === "/about"
+                      ? "font-bold text-cyan-400 border-sky-500"
+                      : "border-transparent font-normal"
+                  }`}
+                  to="/about"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`py-1 border-b ${
+                    location.pathname === "/contact"
+                      ? "font-bold text-cyan-400 border-sky-500"
+                      : "border-transparent font-normal"
+                  }`}
+                  to="/contact"
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
