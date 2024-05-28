@@ -8,11 +8,13 @@ import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import BlogPage from "./pages/Blog/BlogPage";
 import AboutPage from "./pages/About/AboutPage";
 import ContactPage from "./pages/Contact/ContactPage";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<ServicesPage />} />
