@@ -3,7 +3,12 @@ import ContactForm from "./ContactForm";
 export default function ContactPage() {
   return (
     <main>
-      <section className="bg-[url('./contact-img/ContactHeroImage.png')] h-[40vh] bg-cover bg-no-repeat"></section>
+      <section
+        style={{
+          backgroundImage: "url(" + "./contact-img/ContactHeroImage.png" + ")",
+        }}
+        className="h-[40vh] bg-cover bg-no-repeat"
+      ></section>
       <section className="p-10 md:p-16 flex flex-col gap-10">
         <p className="text-xl md:text-2xl lg:text-3xl text-center font-medium">
           Complete the form below to tell us about your business. We will get in
